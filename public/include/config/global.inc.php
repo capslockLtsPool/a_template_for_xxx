@@ -46,10 +46,10 @@ $config['algorithm'] = 'scrypt';
  *   name     =  'mpos'
  **/
 $config['db']['host'] = 'localhost';
-$config['db']['user'] = 'root';
-$config['db']['pass'] = 'a1235813!';
+$config['db']['user'] = '';
+$config['db']['pass'] = '';
 $config['db']['port'] = 3306;
-$config['db']['name'] = 'jkcdb';
+$config['db']['name'] = '';
 
 /**
  * Local wallet RPC configuration
@@ -66,8 +66,8 @@ $config['db']['name'] = 'jkcdb';
  **/
 $config['wallet']['type'] = 'http';
 $config['wallet']['host'] = 'localhost:9772';
-$config['wallet']['username'] = 'jkcrpc';
-$config['wallet']['password'] = 'BGutQNQPmUgytFMgoFWa7AwtcpyDUEaxKkCgVRC2kvGQ';
+$config['wallet']['username'] = '';
+$config['wallet']['password'] = '';
 
 /**
  * Lock account after maximum failed logins
